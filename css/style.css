@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(0.25turn, #3f87a6, #e66465, #9198e5);
+    font-family: sans-serif;
+}
+
+.header {
+    color: white;
+    text-align: center;
+}
+
+.header button {
+    border: white;
+    border-radius: 16px;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.header button {
+    color: white;
+    background: none;
+    border: 3px solid white;
+  }
+
+
+  .header button:hover {
+    background: #fff;
+    color: black;
+  }
